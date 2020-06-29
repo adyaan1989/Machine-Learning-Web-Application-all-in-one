@@ -1,1 +1,1 @@
-streamlitpandasnumpysklearn-contrib-python-headless
+streamlit-contrib-python-headless
