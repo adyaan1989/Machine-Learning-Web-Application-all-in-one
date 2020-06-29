@@ -1,1 +1,1 @@
-streamlit-contrib-python-headless
+streamlitpandas-contrib-python-headless
