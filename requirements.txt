@@ -1,3 +1,4 @@
+io>=3.8
 Flask==1.1.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
@@ -15,4 +16,4 @@ pandas-profiling>=2.8.0
 streamlit>=0.64.0
 streamlit_pandas_profiling>=0.0.4
 sweetviz>=1.0b4
-#codecs>=3.8.5
+codecs>=3.5
