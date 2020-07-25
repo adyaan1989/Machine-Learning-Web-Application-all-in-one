@@ -55,7 +55,7 @@ def main():
     elif choice == "Sweetviz":
         st.subheader("Automated EDA with Sweetviz")
         st.markdown("You can upload your data in 'csv' format")
-        data_file = st.file_uploader("Uplod CSV", type=['csv'])
+        data_file = st.file_uploader("Uplod CSV", type=['csv'], encoding = None, key = 'a')
         if data_file is not None:
             df = pd.read_csv(data_file)
             st.dataframe(df.head())
@@ -73,7 +73,7 @@ def main():
     elif choice =='Custom Analysis':
 
         st.subheader("Data Visualization")
-        data_file = st.file_uploader("Uplod CSV", type=['csv'])
+        data_file = st.file_uploader("Uplod CSV", type=['csv'], encoding = None, key = 'a')
         if data_file is not None:
             df = pd.read_csv(data_file)
             st.dataframe(df.head())
