@@ -10,4 +10,10 @@ scikit-learn==0.22.1
 matplotlib>=1.4.3
 pandas>=0.19
 flasgger==0.9.4
-streamlit
+Pillow>=2.2.2
+pandas-profiling>=2.8.0
+streamlit>=0.64.0
+streamlit.components.v1
+streamlit_pandas_profiling>=0.0.4
+sweetviz>=1.0b4
+codecs>=2.4
